@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\CalculadorConsola\bin\Debug\net8.0\CalculadorConsola.exe
+C:\Users\HP\source\repos\CalculadorConsola\bin\Debug\net8.0\CalculadorConsola.deps.json
+C:\Users\HP\source\repos\CalculadorConsola\bin\Debug\net8.0\CalculadorConsola.runtimeconfig.json
+C:\Users\HP\source\repos\CalculadorConsola\bin\Debug\net8.0\CalculadorConsola.dll
+C:\Users\HP\source\repos\CalculadorConsola\bin\Debug\net8.0\CalculadorConsola.pdb
+C:\Users\HP\source\repos\CalculadorConsola\obj\Debug\net8.0\CalculadorConsola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\CalculadorConsola\obj\Debug\net8.0\CalculadorConsola.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\CalculadorConsola\obj\Debug\net8.0\CalculadorConsola.AssemblyInfo.cs
+C:\Users\HP\source\repos\CalculadorConsola\obj\Debug\net8.0\CalculadorConsola.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\CalculadorConsola\obj\Debug\net8.0\CalculadorConsola.dll
+C:\Users\HP\source\repos\CalculadorConsola\obj\Debug\net8.0\refint\CalculadorConsola.dll
+C:\Users\HP\source\repos\CalculadorConsola\obj\Debug\net8.0\CalculadorConsola.pdb
+C:\Users\HP\source\repos\CalculadorConsola\obj\Debug\net8.0\CalculadorConsola.genruntimeconfig.cache
+C:\Users\HP\source\repos\CalculadorConsola\obj\Debug\net8.0\ref\CalculadorConsola.dll

@@ -1,0 +1,51 @@
+//Estudiante: CARLOS ALEXANDER ILALUQUE HUANCA
+//Pregunta: 3
+#include <stdio.h>
+
+int main()
+{
+   int a, b;  // Variables enteras para las operaciones
+   float division;  // Para almacenar el resultado de la división en float
+   int suma, resta, multiplicacion;
+   int *p_a, *p_b;  // Punteros a las variables enteras
+   int i, j;
+
+   // Inicialización de punteros
+   p_a = &a;
+   p_b = &b;
+
+   // Entrada de datos
+   printf("\t\t EJ punteros ");
+   printf("\t\n Introduzca el primer numero: ");
+   scanf("%d", p_a);  // Leer el valor de 'a' a través del puntero
+   printf("\t\n Introduzca el segundo numero: ");
+   scanf("%d", p_b);  // Leer el valor de 'b' a través del puntero
+
+   j = *p_a;  // Almacenamos el valor de 'a' en una variable entera
+
+   // Suma (operación usando punteros)
+   suma = (*p_a) + (*p_b); 
+   printf("\t La suma es: %d \n", suma);
+
+   // Resta (operación usando punteros)
+   resta = (*p_a) - (*p_b);
+   printf("\t La resta es: %d \n", resta);
+
+   // División (solo la división es float)
+   if (*p_b != 0) {
+      division = (float)(*p_a) / (*p_b);  // Realizar la división en float
+      printf("\t La division es: %.4f \n", division);  // Mostrar con 4 decimales
+   } else {
+      printf("\t Error: División por cero no permitida\n");
+   }
+
+   // Multiplicación por sumas sucesivas (usando punteros)
+   multiplicacion = 0;
+   for (i = 0; i < j; i++) {
+      multiplicacion += (*p_b);  // Sumas sucesivas
+   }
+   printf("\t La multiplicacion es: %d \n", multiplicacion);
+
+   return 0;
+}
+
