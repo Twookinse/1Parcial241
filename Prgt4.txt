@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void calcular_pi_recursivo(double *pi, double signo, double denominador, int iteraciones) {
+    if (iteraciones == 0) {
+        return; 
+    }
+
+    *pi += signo * (4.0 / denominador);
+
+    calcular_pi_recursivo(pi, -signo, denominador + 2.0, iteraciones - 1);
+}
+
+int main() {
+    double pi = 0.0; 
+    int iteraciones = 1000000; 
+
+    calcular_pi_recursivo(&pi, 1.0, 1.0, iteraciones);
+
+    printf("Valor de pi (recursivo): %.15f\n", pi);
+
+    return 0;
+}
